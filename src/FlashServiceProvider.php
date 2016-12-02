@@ -2,7 +2,9 @@
 
 namespace BrianFaust\Flash;
 
-class ServiceProvider extends \BrianFaust\ServiceProvider\ServiceProvider
+use BrianFaust\ServiceProvider\ServiceProvider;
+
+class FlashServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
