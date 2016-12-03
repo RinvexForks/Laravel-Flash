@@ -1,11 +1,20 @@
 <?php
 
+/*
+ * This file is part of Laravel Flash.
+ *
+ * (c) Brian Faust <hello@brianfaust.de>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace BrianFaust\Tests\Flash\Facades;
 
-use GrahamCampbell\TestBenchCore\FacadeTrait;
-use BrianFaust\Tests\Flash\AbstractTestCase;
-use BrianFaust\Flash\FlashNotifier;
 use BrianFaust\Flash\Facades\Flash;
+use BrianFaust\Flash\FlashNotifier;
+use BrianFaust\Tests\Flash\AbstractTestCase;
+use GrahamCampbell\TestBenchCore\FacadeTrait;
 
 class FlashTest extends AbstractTestCase
 {
